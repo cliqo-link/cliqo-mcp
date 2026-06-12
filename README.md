@@ -1,6 +1,7 @@
 # @cliqo/mcp
 
 [![smithery badge](https://smithery.ai/badge/cliqo/cliqo-mcp)](https://smithery.ai/servers/cliqo/cliqo-mcp)
+
 [![cliqo-mcp MCP server](https://glama.ai/mcp/servers/cliqo-link/cliqo-mcp/badges/card.svg)](https://glama.ai/mcp/servers/cliqo-link/cliqo-mcp)
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server for [cliqo.link](https://cliqo.link) — a pay-per-use (credits) link shortener.
