@@ -1,5 +1,7 @@
 # @cliqo/mcp
 
+[![smithery badge](https://smithery.ai/badge/cliqo/cliqo-mcp)](https://smithery.ai/servers/cliqo/cliqo-mcp)
+
 A [Model Context Protocol](https://modelcontextprotocol.io) server for [cliqo.link](https://cliqo.link) — a pay-per-use (credits) link shortener.
 
 It lets any MCP client (Claude Desktop, Claude Code, etc.) create short links, list/get/revoke them, and check your remaining credit balance.
