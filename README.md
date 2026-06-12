@@ -67,7 +67,6 @@ CLIQO_API_KEY=your-api-key npx -y @cliqo/mcp
 | Variable | Required | Description |
 | --- | --- | --- |
 | `CLIQO_API_KEY` | yes | Your cliqo API key, sent as a Bearer token. |
-| `CLIQO_BASE_URL` | no | Override the API base URL (defaults to `https://api.cliqo.link`). Useful for staging/self-hosted instances. |
 
 ## Development
 
