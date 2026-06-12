@@ -1,0 +1,17 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - cliqoApiKey
+    properties:
+      cliqoApiKey:
+        type: string
+        title: cliqo API key
+        description: Scoped API key from https://cliqo.link used to authenticate against the cliqo v1 REST API.
+  commandFunction: |
+    (config) => ({
+      command: "npx",
+      args: ["-y", "@cliqo/mcp"],
+      env: { CLIQO_API_KEY: config.cliqoApiKey }
+    })
